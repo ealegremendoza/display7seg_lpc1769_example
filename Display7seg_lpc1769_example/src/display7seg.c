@@ -135,10 +135,10 @@ void DISPLAY7SEG_Barrido(void)/* Driver */
 	switch(Indice_Display)
 	{
 	/*	Notar que el barrido se hace en orden inverso.	*/
-		case 0:
+		case 1:
 			GPIO_Set(PIN_7SEG_D1,DISP7SEG_DIG_ON);
 			break;
-		case 1:
+		case 0:
 			GPIO_Set(PIN_7SEG_D0,DISP7SEG_DIG_ON);
 			break;
 		default:

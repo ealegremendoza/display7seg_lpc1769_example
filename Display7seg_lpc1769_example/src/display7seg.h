@@ -28,8 +28,8 @@
 #define	PIN_7SEG_DP	2,3
 
 #define CANT_DIGITOS	2
-#define PIN_7SEG_D0	2,4
-#define PIN_7SEG_D1 2,5
+#define PIN_7SEG_D1	2,4
+#define PIN_7SEG_D0 2,5
 
 
 #define	COMMON_CATHODE	0
