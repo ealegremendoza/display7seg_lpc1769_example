@@ -52,7 +52,6 @@ typedef struct{
 
 void GPIO_Barrer_Salidas(void);
 #endif
-
 /*	Prototipos generales	*/
 void GPIO_Func(uint32_t Port, uint32_t Pin, uint32_t Function);
 void GPIO_Mode(uint32_t Port,uint32_t Pin, uint32_t Mode);
